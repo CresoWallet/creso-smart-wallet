@@ -6,8 +6,8 @@ pragma solidity ^0.8.12;
 import "@openzeppelin/contracts/utils/Create2.sol";
 import "@openzeppelin/contracts/proxy/ERC1967/ERC1967Proxy.sol";
 
-import "../samples/CresoWallet.sol";
-import "../samples/bls/IBLSAccount.sol";
+import "../main/CresoWallet.sol";
+import "../main/bls/IBLSAccount.sol";
 
 /**
  * for testing: a BLS account that fails to return its public-key (completely ignores its publickey)

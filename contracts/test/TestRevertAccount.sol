@@ -2,7 +2,7 @@
 pragma solidity ^0.8.12;
 /* solhint-disable no-inline-assembly */
 
-import "../samples/CresoWallet.sol";
+import "../main/CresoWallet.sol";
 contract TestRevertAccount is IAccount {
     IEntryPoint private ep;
     constructor(IEntryPoint _ep) payable {

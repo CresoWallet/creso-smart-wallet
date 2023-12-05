@@ -26,7 +26,7 @@ const config: HardhatUserConfig = {
     }],
     overrides: {
       'contracts/core/EntryPoint.sol': optimizedComilerSettings,
-      'contracts/samples/CresoWallet.sol': optimizedComilerSettings
+      'contracts/main/CresoWallet.sol': optimizedComilerSettings
     }
   }, networks: {
     goerli: {
