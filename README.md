@@ -52,7 +52,7 @@ Ensure you have [Node.js](https://nodejs.org/) and [npm](https://www.npmjs.com/)
 1. Clone the repository:
 
 ```sh
-git clone https://github.com/CresoWallet/creso_smartwallet
+git clone https://github.com/CresoWallet/creso-smart-wallet
 
 cd creso_smartwallet
   ```
