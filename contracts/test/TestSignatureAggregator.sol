@@ -5,7 +5,7 @@ pragma solidity ^0.8.12;
 
 import "../interfaces/IAggregator.sol";
 import "../interfaces/IEntryPoint.sol";
-import "../samples/CresoWallet.sol";
+import "../main/CresoWallet.sol";
 
 /**
  * test signature aggregator.
